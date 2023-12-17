@@ -1,0 +1,62 @@
+/* 1) Today is Nick's birthday 🎉
+   2) Here's how happy I am for you today 🥳
+   3) How people react when you enter the room 😍
+   4) If I had to describe you with ONE word 👇
+   5) The only person as badass as you 💪
+   6) This one's for you, my friend 🥂
+   7) Want to create your own Birthday GIFt site? Take <a href="https://scrimba.com/learn/htmlandcss" target="_blank">this HTML & CSS course.
+ */
+
+
+body{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(skyblue, pink);
+    font-weight: bolder;
+    font-size: larger;
+
+    
+}
+
+.header-img{
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+}
+
+.gift-card{
+  
+    max-width:400px;
+   margin:50px auto;
+}
+
+.gift-img{
+    width:100%;
+    height:300px;
+    background-image: url('images/gift-cover.jpg');
+    background-size:cover;
+}
+
+.gift-img-happy:hover{
+    background-image: url('https://media.giphy.com/media/fPRwBcYd71Lox1v7p2/giphy.gif');
+    
+}
+
+.gift-img-react:hover{
+    background-image: url('https://media.giphy.com/media/xSM46ernAUN3y/giphy.gif');
+}
+
+.gift-img-word:hover{
+    background-image: url('https://media.giphy.com/media/em4i0bDs9Hm2Q/giphy.gif');
+}
+
+.gift-img-badass:hover{
+    background-image: url('https://media.giphy.com/media/5fBH6zhot4F5jeYTYHu/giphy.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gift-img-enjoy:hover{
+    background-image: url('https://media.giphy.com/media/ii5AfL3XzWRLo3SI9S/giphy.gif');
+   
+}
